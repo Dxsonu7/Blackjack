@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Table</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <header>
+        <h1>Gaming Table</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="rules.html">Rules</a> 
+    </nav>
+    <main>
+        <section id="player-cards">
+            <h2>Player's Cards</h2>
+            <ul>
+                <li>King of Hearts</li>
+                <li>10 of Diamonds</li>
+            </ul>
+        </section>
+        
+        <section id="dealer-cards">
+            <h2>Dealer's Cards</h2>
+            <ul>
+                <li>8 of Clubs</li>
+                <li>Queen of Spades</li>
+            </ul>
+        </section>
+        
+        <section id="player-options">
+            <h3>Player's Options</h3>
+            <dl>
+                <div class="action">
+                    <dt><strong>Hit</strong></dt>
+                    <dd>The player takes another card from the deck.</dd>
+                </div>
+                <div class="action">
+                    <dt><strong>Stand</strong></dt>
+                    <dd>The player keeps their current hand and ends their turn.</dd>
+                </div>
+                <div class="action">
+                    <dt><strong>Split</strong></dt>
+                    <dd>If the player has two of the same card, they can split them into separate hands.</dd>
+                </div>
+            </dl>
+        </section>
+        <section id="player-actions">
+            <h3>Player's Actions</h3>
+            <button type="button" disabled>Hit</button>
+            <button type="button">Stand</button>
+            <button type="button">Split</button>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2025 Gaming Table</p>
+    </footer>
+</body>
+
+</html>
